@@ -20,7 +20,13 @@
     font-weight: 600px;
     border-radius: 10px;
 }
-
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+}
 /* header styles */
 
 
@@ -80,6 +86,34 @@
     width: 100%;
 }
 
+/* team and feature related styles */
+.teams{
+    align-items: center;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+#quick-list{
+    color: rgba(114, 114, 114, 1);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+#our{
+    color: black;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+#feature{
+    color: rgba(255, 144, 14, 1);
+    font-size: 2.8rem;
+    font-weight: bold;
+}
 
 /* responsive media query */
 @media screen and (max-width:576px) {
